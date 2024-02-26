@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { EmpresaComponent } from './empresa/empresa.component';
 import { TrabajoComponent } from './trabajo/trabajo.component';
 import { ServicioComponent } from './servicio/servicio.component';
+import { BtnWtsComponent } from './btn-wts/btn-wts.component';
 
 
 
@@ -10,7 +11,8 @@ import { ServicioComponent } from './servicio/servicio.component';
   declarations: [
     EmpresaComponent,
     TrabajoComponent,
-    ServicioComponent
+    ServicioComponent,
+    BtnWtsComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { ServicioComponent } from './servicio/servicio.component';
   exports: [
     EmpresaComponent,
     TrabajoComponent,
-    ServicioComponent
+    ServicioComponent,
+    BtnWtsComponent
   ]
 })
 export class SharedModule { }
