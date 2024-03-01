@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { PergolasComponent } from './pergolas/pergolas.component';
 import { CerramientosComponent } from './cerramientos/cerramientos.component';
 import { HerrajesComponent } from './herrajes/herrajes.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -15,7 +16,8 @@ import { HerrajesComponent } from './herrajes/herrajes.component';
     HerrajesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ],
   exports: [
     HomeComponent,

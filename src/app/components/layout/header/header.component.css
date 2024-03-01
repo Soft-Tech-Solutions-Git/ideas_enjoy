@@ -1,1 +1,59 @@
 @import '~hamburgers/dist/hamburgers.css';
+
+.navbar-brand img {
+    height: 60px;
+}
+
+nav,
+.dropdown-menu,
+.dropdown-item:hover {
+    background-color: var(--primary-color) !important;
+}
+
+.dropdown-menu {
+    border-color: #ffffff00;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-item a {
+    font-family: var(--fuente-principal);
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+.nav-item a:hover,
+.dropdown-item:hover {
+    color: #a8a8a8;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after,
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+    background-color: var(--secondary-color);
+}
+
+@media (min-width: 992px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0 15px;
+    }
+
+}

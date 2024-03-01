@@ -1,0 +1,39 @@
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.left-side {
+    background-color: var(--orange-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-family: var(--fuente-principal);
+}
+
+.left-side,
+.right-side {
+    align-self: stretch;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .right-side {
+    }
+} */
