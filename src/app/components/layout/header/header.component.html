@@ -1,1 +1,37 @@
-<p>header works!</p>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/icon_header.png" alt="logo">
+        </a>
+        <button class="navbar-toggler hamburger hamburger--slider" type="button" (click)="active=!active"
+            [ngClass]="active ? 'is-active' : ''" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Productos
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" [routerLink]="['/pergolas']">Pergolas</a>
+                        <a class="dropdown-item" [routerLink]="['/herrajes']">Herrajes</a>
+                        <a class="dropdown-item" [routerLink]="['/cerramientos']">Cerramientos</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#empresa">Nuestra Empresa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#trabajo">Nuestro Trabajo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

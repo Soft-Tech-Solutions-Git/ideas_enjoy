@@ -1,6 +1,7 @@
 :root {
     --primary-color: #383838;
     --secondary-color: #F5F7F8;
-    --info-color: #F2D639;
-    --error-color: #F66B34;
+    --yellow-color: #F2D639;
+    --orange-color: #F66B34;
+    --fuente-principal: "Arimo", sans-serif;
 }
