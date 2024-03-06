@@ -5,6 +5,7 @@ import { TrabajoComponent } from './trabajo/trabajo.component';
 import { ServicioComponent } from './servicio/servicio.component';
 import { BtnWtsComponent } from './btn-wts/btn-wts.component';
 
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { BtnWtsComponent } from './btn-wts/btn-wts.component';
     BtnWtsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CarouselModule.forRoot()
   ],
   exports: [
     EmpresaComponent,
