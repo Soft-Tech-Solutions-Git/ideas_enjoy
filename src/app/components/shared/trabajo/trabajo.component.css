@@ -1,0 +1,14 @@
+.col1 {
+  background-color: #f66b34;
+  max-width: 100%;
+  height: auto;
+  color: white;
+}
+h1 {
+  font-weight: bold;
+}
+img {
+  object-fit: fill;
+  max-width: 100%;
+  height: auto;
+}
