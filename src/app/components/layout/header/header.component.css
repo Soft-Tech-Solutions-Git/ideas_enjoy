@@ -5,30 +5,31 @@
 }
 
 nav,
-.dropdown-menu,
 .dropdown-item:hover {
     background-color: var(--primary-color) !important;
 }
 
-.dropdown-menu {
-    border-color: #ffffff00;
+.dropdown-item:hover {
+    color: var(--secondary-color);
 }
 
 .navbar-toggler:focus {
     box-shadow: none;
 }
 
-.nav-item a {
+.nav-link {
     font-family: var(--fuente-principal);
     color: var(--secondary-color);
     font-size: 18px;
 }
 
-.nav-item a:hover,
-.dropdown-item:hover {
+.nav-link:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
     color: #a8a8a8;
 }
 
+.dropdown-menu,
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after,
@@ -55,5 +56,4 @@ nav,
     .navbar-nav .nav-item {
         margin: 0 15px;
     }
-
 }
