@@ -1,0 +1,19 @@
+* {
+  font-size: 24px;
+}
+.col1 {
+  background-color: #f66b34;
+  max-width: 100%;
+  height: auto;
+  color: white;
+}
+h1,
+span {
+  font-weight: bold;
+  font-size: 40px;
+}
+img {
+  object-fit: fill;
+  max-width: 100%;
+  height: auto;
+}
